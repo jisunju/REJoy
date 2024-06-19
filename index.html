@@ -13,9 +13,6 @@
     <main>
         <p>이곳에 원하는 내용을 추가하세요.</p>
     </main>
-    <footer>
-        <p>&copy; 2024 나의 웹사이트. 모든 권리 보유.</p>
-    </footer>
 </body>
     <div class="container">
         <h2>이메일 입력 폼</h2>
@@ -25,7 +22,17 @@
          <button type="submit">구독하기</button>
         </form>
         <p id="message"></p>
+
+        <!-- 검색창 추가 -->
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="검색어를 입력하세요...">
+            <button type="button" onclick="performSearch()">검색</button>
+        </div>
 </div>
+
+<footer>
+    <p>&copy; 2024 나의 웹사이트. 모든 권리는 지수, 지훈, 조이(혹은 순주) 보유.</p>
+</footer>
 
 <script src="script.js"></script> <!-- JavaScript 파일 연결 -->
 </html>
